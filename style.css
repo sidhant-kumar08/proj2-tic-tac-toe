@@ -88,3 +88,8 @@ body{
 .hide{
     display: none;
 }
+
+#count{
+    margin-top: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
