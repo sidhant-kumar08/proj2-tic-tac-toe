@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #9CDBA6;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    background-color: #DEF9C4;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    font-size: 9vmin;
+    color: #212121;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+#game-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    font-weight: bolder;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn-container button {
+    height: 40px;
+    width: 150px;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+
+
+#reset-btn{
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    background-color: #212121;
+    color: #fff;
+    
+} 
+
+#new-game{
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    background-color: #212121;
+    color: #fff;
+}
+
+.msg-container h2{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vmin;
+}
+
+.hide{
+    display: none;
+}
